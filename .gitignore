@@ -1,8 +1,10 @@
 *.txt
 *.dll
 *.pdb
-/obj/*
-/bin/*
-/Node/*
-/Set/*
+*/obj/*
+*/bin/*
+*/*/obj/*
+*/*/bin/*
+*/Node/*
+*/Set/*
 .DS_Store

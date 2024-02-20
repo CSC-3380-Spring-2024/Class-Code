@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionOps", "FractionOps\FractionOps.csproj", "{AD7AF8C5-3C45-48BB-B201-B0E14E732168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{4E99F396-07C2-41D1-8E7E-EE5988CE4F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InheritanceExample", "InheritanceExample", "{21DBBFD6-12E7-49F4-B6D5-D86564430034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal", "InheritanceExample\Animal\Animal.csproj", "{78F771E4-5BEC-41BE-8703-44E917297023}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dog", "InheritanceExample\Dog\Dog.csproj", "{96AB296E-BF20-42F5-943C-CD74761F581E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalTester", "InheritanceExample\AnimalTester\AnimalTester.csproj", "{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFD812B-5A10-45A6-9A57-91731D4695E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFD812B-5A10-45A6-9A57-91731D4695E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFD812B-5A10-45A6-9A57-91731D4695E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFD812B-5A10-45A6-9A57-91731D4695E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E99F396-07C2-41D1-8E7E-EE5988CE4F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E99F396-07C2-41D1-8E7E-EE5988CE4F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E99F396-07C2-41D1-8E7E-EE5988CE4F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E99F396-07C2-41D1-8E7E-EE5988CE4F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78F771E4-5BEC-41BE-8703-44E917297023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78F771E4-5BEC-41BE-8703-44E917297023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78F771E4-5BEC-41BE-8703-44E917297023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78F771E4-5BEC-41BE-8703-44E917297023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AB296E-BF20-42F5-943C-CD74761F581E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AB296E-BF20-42F5-943C-CD74761F581E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AB296E-BF20-42F5-943C-CD74761F581E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AB296E-BF20-42F5-943C-CD74761F581E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78F771E4-5BEC-41BE-8703-44E917297023} = {21DBBFD6-12E7-49F4-B6D5-D86564430034}
+		{724BF7DF-3B02-4E82-98B8-F3FA037DAE4F} = {21DBBFD6-12E7-49F4-B6D5-D86564430034}
+		{96AB296E-BF20-42F5-943C-CD74761F581E} = {21DBBFD6-12E7-49F4-B6D5-D86564430034}
+		{2D80B6F6-9E54-4BFC-ACFC-0856F7EC16E2} = {21DBBFD6-12E7-49F4-B6D5-D86564430034}
+	EndGlobalSection
+EndGlobal
