@@ -323,4 +323,13 @@ public class NodeTests
             Assert.Fail();
         }
     }
+    [Test]
+    public void TestSetSubset()
+    {
+        Assert.True(NodeSet1 > IntersectNode);
+        Assert.False(NodeSet1 < IntersectNode);
+        Assert.True(NodeSet1 < UnionNode);
+        Assert.False(NodeSet1 > UnionNode);
+    }
+
 }
