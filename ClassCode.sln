@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalTester", "Inheritance
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExample", "InterfaceExample\InterfaceExample.csproj", "{8F9A4228-AB49-417B-A34D-4028212B2918}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Errors", "Errors\Errors.csproj", "{B0EA6E49-2E32-46EB-8CCA-534EA1A1CC00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{8F9A4228-AB49-417B-A34D-4028212B2918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F9A4228-AB49-417B-A34D-4028212B2918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F9A4228-AB49-417B-A34D-4028212B2918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EA6E49-2E32-46EB-8CCA-534EA1A1CC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EA6E49-2E32-46EB-8CCA-534EA1A1CC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EA6E49-2E32-46EB-8CCA-534EA1A1CC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EA6E49-2E32-46EB-8CCA-534EA1A1CC00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{78F771E4-5BEC-41BE-8703-44E917297023} = {21DBBFD6-12E7-49F4-B6D5-D86564430034}
