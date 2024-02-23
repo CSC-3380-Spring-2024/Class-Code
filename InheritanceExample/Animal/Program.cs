@@ -18,8 +18,6 @@
 
 	public abstract void Move();
 
-
-
     public override string ToString()
     {
 
