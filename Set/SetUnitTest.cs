@@ -6,6 +6,7 @@ public class StringTests
 {
 
     Set<string> emptyString;
+    Set<string> dupString;
     Set<string> StringSet1;
     Set<string> StringSet2;
     Set<string> IntersectString;
@@ -17,6 +18,7 @@ public class StringTests
     public void CreateSets()
     {
         emptyString = new Set<string>();
+        dupString = new Set<string>(["a", "a", "b"]);
         StringSet1 = new Set<string>(["abba", "breakfast", "charlie", "great", "zebra"]);
         StringSet2 = new Set<string>(["breakfast", "delta", "united", "zebra"]);
         IntersectString = new Set<string>(["breakfast", "zebra"]);
@@ -42,6 +44,12 @@ public class StringTests
     public void TestSetSubtract()
     {
         Assert.True((StringSet1 - StringSet2) == SubtractString);
+    }
+
+    [Test]
+    public void TestRemoveDuplicates(){
+        dupString.RemoveDuplicates();
+        Assert.True(dupString == new Set<string>(["a", "b"]));
     }
 
     [Test]
